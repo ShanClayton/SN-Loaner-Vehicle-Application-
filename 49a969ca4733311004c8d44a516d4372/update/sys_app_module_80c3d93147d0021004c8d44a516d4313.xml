@@ -1,40 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="Loaner Vehicle Catalog">c2cbe18e4733311004c8d44a516d4349</application>
+        <application display_value="Loaner Vehicle Request and Inventory">349315fd4790021004c8d44a516d43d6</application>
         <assessment/>
         <device_type/>
         <filter/>
         <hint/>
         <homepage/>
         <image/>
-        <link_type>LIST</link_type>
+        <link_type>SEPARATOR</link_type>
         <map_page/>
-        <mobile_title>Loaner Vehicle Catalogs</mobile_title>
+        <mobile_title>Loaner</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_1298059_loaner_0_loaner_vehicle_catalog</name>
-        <order/>
+        <name/>
+        <order>100</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>lva_user</roles>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-19 07:10:44</sys_created_on>
+        <sys_created_on>2024-02-12 07:19:07</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>cecbe18e4733311004c8d44a516d434c</sys_id>
+        <sys_id>80c3d93147d0021004c8d44a516d4313</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Loaner Vehicle Catalogs</sys_name>
+        <sys_name>Loaner Vehicle Catalog</sys_name>
         <sys_overrides/>
         <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1298059_loaner_0">49a969ca4733311004c8d44a516d4372</sys_package>
         <sys_policy/>
         <sys_scope display_value="Loaner Vehicle Request and Inventory">49a969ca4733311004c8d44a516d4372</sys_scope>
-        <sys_update_name>sys_app_module_cecbe18e4733311004c8d44a516d434c</sys_update_name>
+        <sys_update_name>sys_app_module_80c3d93147d0021004c8d44a516d4313</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-19 07:10:44</sys_updated_on>
+        <sys_updated_on>2024-02-12 07:19:07</sys_updated_on>
         <timeline_page/>
-        <title>Loaner Vehicle Catalogs</title>
+        <title>Loaner Vehicle Catalog</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>
