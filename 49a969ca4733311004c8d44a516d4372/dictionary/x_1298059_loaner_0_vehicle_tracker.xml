@@ -25,13 +25,13 @@
             </choice>
         </element>
         <element label="Vehicle" mandatory="true" max_length="32" name="vehicle" reference="x_1298059_loaner_0_loaner_vehicle_catalog" type="reference"/>
-        <element choice="3" label="Vehicle Status" mandatory="true" max_length="40" name="vehicle_status" type="choice">
+        <element choice="1" label="Vehicle Status" mandatory="true" max_length="40" name="vehicle_status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Decommissioned" value="decommissioned"/>
                 <element inactive_on_update="false" label="Out on Field" value="out on field"/>
                 <element inactive_on_update="false" label="Pending Release" value="pending release"/>
-                <element inactive_on_update="false" label="Return to Warehouse" value="return to warehouse"/>
                 <element inactive_on_update="false" label="Returned for Inspection" value="returned for inspection"/>
+                <element inactive_on_update="false" label="Returned to Warehouse" value="returned to warehouse"/>
                 <element inactive_on_update="false" label="Sent for Servicing" value="sent for servicing"/>
             </choice>
         </element>
