@@ -17,7 +17,7 @@
                 <element inactive_on_update="false" label="Returned to Warehouse" value="returned to warehouse"/>
             </choice>
         </element>
-        <element label="Vehicle Tracker" mandatory="true" max_length="32" name="vehicle_tracker" reference="x_1298059_loaner_0_vehicle_tracker" type="reference"/>
+        <element label="Vehicle Servicing " mandatory="true" max_length="32" name="vehicle_tracker" reference="x_1298059_loaner_0_vehicle_tracker" type="reference"/>
         <element label="Work Performed" max_length="1000" name="work_performed" type="string"/>
         <index name="index">
             <element name="vehicle"/>
