@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate">
+    <sys_ux_composite_data_template_predicate action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="sc_req_item">active=true^assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <custom_condition/>
+        <custom_field_list/>
+        <field_list>due_date,cat_item.picture,short_description,price,recurring_price,recurring_frequency,requested_for,quantity,number</field_list>
+        <name>My tasks requested item</name>
+        <order/>
+        <predicate_bundle display_value="My Tasks - Requested item bundle">92503213d1500a10e6ebbd5e4a1e7fcf</predicate_bundle>
+        <required_roles/>
+        <sys_class_name>sys_ux_composite_data_template_predicate</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-02-17 05:54:08</sys_created_on>
+        <sys_id>5a503213a4500a10317b055bae25aece</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My tasks requested item</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1298059_loaner_0">49a969ca4733311004c8d44a516d4372</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">49a969ca4733311004c8d44a516d4372</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_5a503213a4500a10317b055bae25aece</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-17 05:54:08</sys_updated_on>
+        <table>sc_req_item</table>
+        <ux_template display_value="My Tasks - requested item template">5e5032134c500a10f7cc99762cb901d0</ux_template>
+    </sys_ux_composite_data_template_predicate>
+</record_update>

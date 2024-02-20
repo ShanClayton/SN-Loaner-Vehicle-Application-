@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_predicate_m2m_action_assignment">
+    <sys_ux_predicate_m2m_action_assignment action="INSERT_OR_UPDATE">
+        <declarative_action_assignment display_value="approve">d250321336500a10c6a95d866e7c63f5</declarative_action_assignment>
+        <predicate display_value="My Tasks">9e503213da500a10b5230dd65ce6c3cf</predicate>
+        <sys_class_name>sys_ux_predicate_m2m_action_assignment</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-02-17 05:54:09</sys_created_on>
+        <sys_id>5e503213fc500a10fc22fc53f31797c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1298059_loaner_0">49a969ca4733311004c8d44a516d4372</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">49a969ca4733311004c8d44a516d4372</sys_scope>
+        <sys_update_name>sys_ux_predicate_m2m_action_assignment_5e503213fc500a10fc22fc53f31797c4</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-17 05:54:09</sys_updated_on>
+    </sys_ux_predicate_m2m_action_assignment>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle">
+    <sys_ux_composite_data_m2m_predicate_bundle action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Landing - My Requests Dataset">12503213e9500a10b9c00f03929450d7</dataset>
+        <order/>
+        <predicate_bundle display_value="My requests - incident bundle">da50321391500a10462df242c28e32d2</predicate_bundle>
+        <sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-02-17 05:54:08</sys_created_on>
+        <sys_id>5a503213da500a1055273e8f8f2620d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1298059_loaner_0">49a969ca4733311004c8d44a516d4372</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">49a969ca4733311004c8d44a516d4372</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_5a503213da500a1055273e8f8f2620d4</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-17 05:54:08</sys_updated_on>
+    </sys_ux_composite_data_m2m_predicate_bundle>
+</record_update>

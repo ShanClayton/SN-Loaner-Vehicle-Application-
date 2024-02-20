@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource">
+    <sys_ux_composite_data_m2m_datasource action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Catalog Item page - Related Items dataset">5a50321337500a10af42c1c99aeb68d7</dataset>
+        <datasource display_value="Custom Portal Catalog Item page - Related Items Datasource">1e50321352500a10fca9a875571cb4d4</datasource>
+        <sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-02-17 05:54:10</sys_created_on>
+        <sys_id>da50321332500a10176a3c98b987b9d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1298059_loaner_0">49a969ca4733311004c8d44a516d4372</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">49a969ca4733311004c8d44a516d4372</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_datasource_da50321332500a10176a3c98b987b9d5</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-17 05:54:10</sys_updated_on>
+    </sys_ux_composite_data_m2m_datasource>
+</record_update>
