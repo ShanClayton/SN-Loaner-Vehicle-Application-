@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="">4e50321347500a1004c8d44a516d43a2</page>
+        <required_translations>[]</required_translations>
+        <route display_value="Landing Page">da5032137a500a10da3a31c5f890ace7</route>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-02-17 05:54:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>9a503213e2500a10b4b02f4bc27a45c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1298059_loaner_0">49a969ca4733311004c8d44a516d4372</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">49a969ca4733311004c8d44a516d4372</sys_scope>
+        <sys_update_name>sys_ux_page_property_9a503213e2500a10b4b02f4bc27a45c7</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-17 05:54:09</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1298059_loaner_0.4e50321347500a1004c8d44a516d43a2.route.chrome_header.da5032137a500a10da3a31c5f890ace7</unique_name>
+        <value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false&#13;
+    }&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory">49a969ca4733311004c8d44a516d4372</application>
+        <file_path/>
+        <instance_id>a503c7ccdb1a31d402022a591396199a</instance_id>
+        <instance_name>dev198269</instance_name>
+        <name>sys_ux_page_property_9a503213e2500a10b4b02f4bc27a45c7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_header</name><page display_value="">4e50321347500a1004c8d44a516d43a2</page><required_translations>[]</required_translations><route display_value="Landing Page">da5032137a500a10da3a31c5f890ace7</route><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2024-02-17 05:54:09</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>9a503213e2500a10b4b02f4bc27a45c7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_header</sys_name><sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1298059_loaner_0">49a969ca4733311004c8d44a516d4372</sys_package><sys_policy/><sys_scope display_value="Loaner Vehicle Request and Inventory">49a969ca4733311004c8d44a516d4372</sys_scope><sys_update_name>sys_ux_page_property_9a503213e2500a10b4b02f4bc27a45c7</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2024-02-17 05:54:09</sys_updated_on><type>json</type><unique_name>x_1298059_loaner_0.4e50321347500a1004c8d44a516d43a2.route.chrome_header.da5032137a500a10da3a31c5f890ace7</unique_name><value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false&#13;
+    }&#13;
+}</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>1502258560</payload_hash>
+        <record_name>chrome_header</record_name>
+        <reverted_from/>
+        <source>498044334700021004c8d44a516d43b3</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-02-05 20:07:09</sys_created_on>
+        <sys_id>5bfbfe9f47500a1004c8d44a516d43a9</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18d7ae1b5c80000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>1bfbfe9f8b500a103c797eb0549b58a9</update_guid>
+        <update_guid_history>1bfbfe9f8b500a103c797eb0549b58a9:1502258560</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-02-17 06:44:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>09affb34d3fe44beb88968f0cca96a44</sys_id>
+        <sys_metadata>9a503213e2500a10b4b02f4bc27a45c7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1298059_loaner_0">49a969ca4733311004c8d44a516d4372</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">49a969ca4733311004c8d44a516d4372</sys_scope>
+        <sys_scope_delete display_value="">1b2ae3d0be134b3db946bc94e89b91a1</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_9a503213e2500a10b4b02f4bc27a45c7</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_9a503213e2500a10b4b02f4bc27a45c7">5bfbfe9f47500a1004c8d44a516d43a9</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-17 06:44:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

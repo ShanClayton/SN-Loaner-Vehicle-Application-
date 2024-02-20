@@ -29,7 +29,7 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
  //Search for existing ticket associated with the current tracker record that is open.
- var vehService = new GlideRecord ('x_1298059_loaner_0_vehicle_servicing');
+ const vehService = new GlideRecord ('x_1298059_loaner_0_vehicle_servicing');
  //Create a GlideRecord object to query the servicing table.
 
  vehService.addQuery('vehicle_tracker', current.sys_id);
@@ -45,11 +45,11 @@
 	//If no matching record was found in the pervious query:
 
 	//create a new ticket record.
-	var createTicket = new GlideRecord('x_1298059_loaner_0_vehicle_servicing');
+	const createTicket = new GlideRecord('x_1298059_loaner_0_vehicle_servicing');
 	//Create a new GlideRecord object for the vehicle servicing table
 
 	//Get the current date to set as the service ticket's opening date.
-	var gd = new GlideDate();
+	let gd = new GlideDate();
 	//Initialize the new record.
 
 	createTicket.setValue('vehicle_tracker', current.sys_id);
@@ -78,7 +78,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9f851e5f479cc61004c8d44a516d43d6</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Create a New VS Ticket</sys_name>
         <sys_overrides/>
         <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1298059_loaner_0">49a969ca4733311004c8d44a516d4372</sys_package>
@@ -86,7 +86,7 @@
         <sys_scope display_value="Loaner Vehicle Request and Inventory">49a969ca4733311004c8d44a516d4372</sys_scope>
         <sys_update_name>sys_script_9f851e5f479cc61004c8d44a516d43d6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-17 04:46:13</sys_updated_on>
+        <sys_updated_on>2024-02-19 22:01:53</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
