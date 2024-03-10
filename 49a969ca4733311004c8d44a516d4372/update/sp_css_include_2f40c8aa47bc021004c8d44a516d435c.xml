@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css_include">
+    <sp_css_include action="INSERT_OR_UPDATE">
+        <lazy_load>false</lazy_load>
+        <name>Madimi One Font</name>
+        <rtl_css_file_url/>
+        <source>url</source>
+        <sp_css/>
+        <sys_class_name>sp_css_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-10 05:41:27</sys_created_on>
+        <sys_id>2f40c8aa47bc021004c8d44a516d435c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Madimi One Font</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1298059_loaner_0">49a969ca4733311004c8d44a516d4372</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">49a969ca4733311004c8d44a516d4372</sys_scope>
+        <sys_update_name>sp_css_include_2f40c8aa47bc021004c8d44a516d435c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-10 05:41:27</sys_updated_on>
+        <url>https://fonts.googleapis.com/css2?family=Madimi+One&amp;family=Open+Sans:ital,wght@0,300;0,500;0,600;1,300&amp;family=Oxygen:wght@400;700&amp;display=swap</url>
+    </sp_css_include>
+</record_update>

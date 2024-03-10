@@ -2,7 +2,7 @@
     <sysevent_email_action action="INSERT_OR_UPDATE">
         <action_insert>true</action_insert>
         <action_update>true</action_update>
-        <active>true</active>
+        <active>false</active>
         <advanced_condition/>
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
@@ -61,19 +61,19 @@
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-02-15 05:28:19</sys_created_on>
+        <sys_created_on>2024-03-06 00:28:24</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>c9559072479c061004c8d44a516d4302</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_id>6a6212cd47b8421004c8d44a516d433b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Return Vehicle Notification</sys_name>
         <sys_overrides/>
         <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1298059_loaner_0">49a969ca4733311004c8d44a516d4372</sys_package>
         <sys_policy/>
         <sys_scope display_value="Loaner Vehicle Request and Inventory">49a969ca4733311004c8d44a516d4372</sys_scope>
-        <sys_update_name>sysevent_email_action_c9559072479c061004c8d44a516d4302</sys_update_name>
+        <sys_update_name>sysevent_email_action_6a6212cd47b8421004c8d44a516d433b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-06 00:29:40</sys_updated_on>
+        <sys_updated_on>2024-03-06 00:29:19</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
