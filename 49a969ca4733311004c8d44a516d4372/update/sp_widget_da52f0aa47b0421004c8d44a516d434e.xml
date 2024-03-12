@@ -3,8 +3,16 @@
         <category>other</category>
         <client_script><![CDATA[api.controller=function() {
   /* widget controller */
-   var c = this;
-  c.data.greeting = 'Hi ' + scope.user.first_name + '!';
+    var c = this;
+    var user = scope.user;
+    var hour = new Date().getHours();
+    var greeting;
+
+    if (hour < 12) greeting = 'Good morning,';
+    else if (hour < 18) greeting = 'Good afternoon,';
+    else greeting = 'Good evening,';
+
+    c.greeting = greeting + ' ' + user.first_name;
 };]]></client_script>
         <controller_as>c</controller_as>
         <css>.sp-tagline-color {
@@ -23,7 +31,7 @@
         <docs/>
         <field_list>title,short_description,search_application,search_results_configuration,disable_all_suggestions,placeholder,ai_search_source_filter</field_list>
         <has_preview>true</has_preview>
-        <id>loaner hp search </id>
+        <id>loaner_hp_search_</id>
         <internal>false</internal>
         <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
         <name>Loaner HomePage Search </name>
@@ -42,17 +50,17 @@ else
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-10 09:19:34</sys_created_on>
         <sys_id>da52f0aa47b0421004c8d44a516d434e</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Loaner HomePage Search </sys_name>
         <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1298059_loaner_0">49a969ca4733311004c8d44a516d4372</sys_package>
         <sys_policy/>
         <sys_scope display_value="Loaner Vehicle Request and Inventory">49a969ca4733311004c8d44a516d4372</sys_scope>
         <sys_update_name>sp_widget_da52f0aa47b0421004c8d44a516d434e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-10 09:52:31</sys_updated_on>
+        <sys_updated_on>2024-03-10 23:22:32</sys_updated_on>
         <template><![CDATA[<div id="homepage-search" class="hidden-xs wrapper-xl">
   <div class="wrapper-xl">
-  	<h1 class="text-center text-4x m-b-lg sp-tagline-color" ng-bind="data.greeting"></h1>
+  	<h1 class="text-center text-4x m-b-lg sp-tagline-color" ng-bind="c.greeting"></h1>
   	<div ng-if="options.short_description" class="text-center h4 m-b-lg sp-tagline-color" ng-bind="options.short_description"></div>
   	<sp-widget widget="data.typeAheadSearch"></sp-widget>
   </div>
