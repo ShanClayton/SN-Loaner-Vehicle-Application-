@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css>.custom-widget {
+  background-color: #ffffff; /* White background color for the widget */
+  border: 1px solid #CCCCCC; /* Light grey border for the widget */
+  border-radius: 4px; /* Rounded corners */
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1); /* Subtle shadow for depth */
+  margin-bottom: 20px; /* Spacing between widgets */
+}
+
+.custom-widget .widget-content {
+  padding: 16px;
+}
+
+.custom-widget .alert.alert-danger {
+  border-radius: 3px;
+  margin-bottom: 0; /* To align with the styling of the rest of the widget */
+}
+
+/* Table styling - this will override default table styles */
+.custom-widget .data-table-widget .list2_body {
+  border-top: none; /* Removes the border from the top of the table */
+}
+
+.custom-widget .data-table-widget .list2_header, 
+.custom-widget .data-table-widget .list2_row {
+  border-left: none; /* Removes the border from the left side of the cells */
+  border-right: none; /* Removes the border from the right side of the cells */
+}
+
+.custom-widget .data-table-widget .list2_cell {
+  border-top: 1px solid #e1e1e1; /* Adds a border to the top of the cell for separation */
+}
+
+/* Header Title Styling updated to match your requirements */
+.custom-widget .data-table-widget .list2_header {
+  background-color: #0B3D41; /* Dark teal green for the header background */
+  color: #FFFFFF; /* White color for the text */
+}
+
+/* Ensuring row and text colors are adjusted */
+.custom-widget .data-table-widget .list2_row {
+  background-color: #FFFFFF; /* Maintaining white background for rows */
+  color: #333; /* Ensuring text color is dark for readability */
+}
+
+.custom-widget .data-table-widget .list2_row:hover {
+  background-color: #E8F4FD; /* Light blue for row hover, adjust if needed */
+}
+
+.custom-widget .data-table-widget .list2_cell {
+  border-color: #B0DAF1; /* Soft blue for borders, can adjust as needed */
+}
+</css>
+        <display_field/>
+        <field_list>status,vehicle_make,image</field_list>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">bdd974be47b4821004c8d44a516d43be</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Available Vehicles">9be4b03a47b4821004c8d44a516d433b</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-11 04:30:51</sys_created_on>
+        <sys_id>fed934be47b4821004c8d44a516d4365</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1298059_loaner_0">49a969ca4733311004c8d44a516d4372</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">49a969ca4733311004c8d44a516d4372</sys_scope>
+        <sys_update_name>sp_instance_table_fed934be47b4821004c8d44a516d4365</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-11 05:36:40</sys_updated_on>
+        <table>x_1298059_loaner_0_loaner_vehicle_catalog</table>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="DELETE" query="documentkey=fed934be47b4821004c8d44a516d4365"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory">49a969ca4733311004c8d44a516d4372</application>
+        <file_path/>
+        <instance_id>a503c7ccdb1a31d402022a591396199a</instance_id>
+        <instance_name>dev198269</instance_name>
+        <name>sp_instance_table_fed934be47b4821004c8d44a516d4365</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table"><sp_instance_table action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css>.custom-widget {
+  background-color: #ffffff; /* White background color for the widget */
+  border: 1px solid #CCCCCC; /* Light grey border for the widget */
+  border-radius: 4px; /* Rounded corners */
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1); /* Subtle shadow for depth */
+  margin-bottom: 20px; /* Spacing between widgets */
+}
+
+.custom-widget .widget-content {
+  padding: 16px;
+}
+
+.custom-widget .alert.alert-danger {
+  border-radius: 3px;
+  margin-bottom: 0; /* To align with the styling of the rest of the widget */
+}
+
+/* Table styling - this will override default table styles */
+.custom-widget .data-table-widget .list2_body {
+  border-top: none; /* Removes the border from the top of the table */
+}
+
+.custom-widget .data-table-widget .list2_header, 
+.custom-widget .data-table-widget .list2_row {
+  border-left: none; /* Removes the border from the left side of the cells */
+  border-right: none; /* Removes the border from the right side of the cells */
+}
+
+.custom-widget .data-table-widget .list2_cell {
+  border-top: 1px solid #e1e1e1; /* Adds a border to the top of the cell for separation */
+}
+
+/* Header Title Styling updated to match your requirements */
+.custom-widget .data-table-widget .list2_header {
+  background-color: #0B3D41; /* Dark teal green for the header background */
+  color: #FFFFFF; /* White color for the text */
+}
+
+/* Ensuring row and text colors are adjusted */
+.custom-widget .data-table-widget .list2_row {
+  background-color: #FFFFFF; /* Maintaining white background for rows */
+  color: #333; /* Ensuring text color is dark for readability */
+}
+
+.custom-widget .data-table-widget .list2_row:hover {
+  background-color: #E8F4FD; /* Light blue for row hover, adjust if needed */
+}
+
+.custom-widget .data-table-widget .list2_cell {
+  border-color: #B0DAF1; /* Soft blue for borders, can adjust as needed */
+}
+</css><display_field/><field_list>status,vehicle_make,image</field_list><filter/><glyph/><id/><maximum_entries>5</maximum_entries><order>1</order><order_by/><order_direction>asc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="1">bdd974be47b4821004c8d44a516d43be</sp_column><sp_page/><sp_widget display_value="Available Vehicles">9be4b03a47b4821004c8d44a516d433b</sp_widget><sys_class_name>sp_instance_table</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-11 04:30:51</sys_created_on><sys_id>fed934be47b4821004c8d44a516d4365</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1298059_loaner_0">49a969ca4733311004c8d44a516d4372</sys_package><sys_policy/><sys_scope display_value="Loaner Vehicle Request and Inventory">49a969ca4733311004c8d44a516d4372</sys_scope><sys_update_name>sp_instance_table_fed934be47b4821004c8d44a516d4365</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-11 05:36:40</sys_updated_on><table>x_1298059_loaner_0_loaner_vehicle_catalog</table><title/><url/><widget_parameters/></sp_instance_table><sys_translated_text action="delete_multiple" query="documentkey=fed934be47b4821004c8d44a516d4365"/></record_update>]]></payload>
+        <payload_hash>-933666619</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>655e28e74700021004c8d44a516d43ea</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-11 05:36:40</sys_created_on>
+        <sys_id>cfe845324738821004c8d44a516d4323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e2c0359510000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-11 05:36:40</sys_updated_on>
+        <type>Instance with Table</type>
+        <update_guid>47e84532ea388210d88cb5c4ae298223</update_guid>
+        <update_guid_history>47e84532ea388210d88cb5c4ae298223:-933666619,e10a78be0bb48210e4097fbb347b21a9:1796107132,0bd934be0cb48210adf65686dce53967:-1265724112</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">4378f97e47f8821004c8d44a516d43e0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-11 09:04:28</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_table">sp_instance_table</sys_db_object>
+        <sys_id>388095940e8147d0922bf4ed7e95b100</sys_id>
+        <sys_metadata>fed934be47b4821004c8d44a516d4365</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1298059_loaner_0">49a969ca4733311004c8d44a516d4372</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">49a969ca4733311004c8d44a516d4372</sys_scope>
+        <sys_scope_delete display_value="">1b2ae3d0be134b3db946bc94e89b91a1</sys_scope_delete>
+        <sys_update_name>sp_instance_table_fed934be47b4821004c8d44a516d4365</sys_update_name>
+        <sys_update_version display_value="sp_instance_table_fed934be47b4821004c8d44a516d4365">cfe845324738821004c8d44a516d4323</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-11 09:04:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
