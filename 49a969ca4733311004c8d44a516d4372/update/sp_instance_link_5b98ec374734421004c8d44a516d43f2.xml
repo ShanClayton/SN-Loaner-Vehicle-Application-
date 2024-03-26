@@ -2,11 +2,11 @@
     <sp_instance_link action="INSERT_OR_UPDATE">
         <active>true</active>
         <class_name/>
-        <color>info</color>
+        <color/>
         <css/>
-        <glyph>star</glyph>
+        <glyph>book</glyph>
         <id/>
-        <kb_article/>
+        <kb_article display_value="KB0010002">647cdcae4730421004c8d44a516d4391</kb_article>
         <kb_category display_value="About ">06be94a24770421004c8d44a516d4341</kb_category>
         <kb_topic/>
         <order>1</order>
@@ -16,27 +16,27 @@
         <short_description>Read about how our company came about. testing test test</short_description>
         <size>md</size>
         <sp_column display_value="3">bd9a28f74734421004c8d44a516d4388</sp_column>
-        <sp_page/>
+        <sp_page display_value="kb_article_view">a60dcc050be432004ce28ffe15673a54</sp_page>
         <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
         <sys_class_name>sp_instance_link</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-14 05:49:26</sys_created_on>
         <sys_id>5b98ec374734421004c8d44a516d43f2</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>About EFS</sys_name>
         <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1298059_loaner_0">49a969ca4733311004c8d44a516d4372</sys_package>
         <sys_policy/>
         <sys_scope display_value="Loaner Vehicle Request and Inventory">49a969ca4733311004c8d44a516d4372</sys_scope>
         <sys_update_name>sp_instance_link_5b98ec374734421004c8d44a516d43f2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-14 06:07:20</sys_updated_on>
+        <sys_updated_on>2024-03-26 04:15:02</sys_updated_on>
         <title>About EFS</title>
-        <type>kb_category</type>
+        <type>kb_article</type>
         <url/>
         <widget_parameters><![CDATA[{
 	"link_template": {
-		"value": "Color Box",
-		"displayValue": "Color Box"
+		"value": "",
+		"displayValue": "-- None --"
 	}
 }]]></widget_parameters>
     </sp_instance_link>

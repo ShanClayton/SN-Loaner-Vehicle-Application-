@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Efficient Home - Container 6</name>
+        <order>6</order>
+        <semantic_tag/>
+        <sp_page display_value="efficient_home">d0f500e247fc021004c8d44a516d43af</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-11 04:30:19</sys_created_on>
+        <sys_id>cbb9f0be47b4821004c8d44a516d435e</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Efficient Home - Container 6</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1298059_loaner_0">49a969ca4733311004c8d44a516d4372</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">49a969ca4733311004c8d44a516d4372</sys_scope>
+        <sys_update_name>sp_container_cbb9f0be47b4821004c8d44a516d435e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-26 04:16:36</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory">49a969ca4733311004c8d44a516d4372</application>
+        <file_path/>
+        <instance_id>a503c7ccdb1a31d402022a591396199a</instance_id>
+        <instance_name>dev198269</instance_name>
+        <name>sp_container_cbb9f0be47b4821004c8d44a516d435e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Efficient Home - Container 6</name><order>6</order><semantic_tag/><sp_page display_value="efficient_home">d0f500e247fc021004c8d44a516d43af</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-11 04:30:19</sys_created_on><sys_id>cbb9f0be47b4821004c8d44a516d435e</sys_id><sys_mod_count>7</sys_mod_count><sys_name>Efficient Home - Container 6</sys_name><sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1298059_loaner_0">49a969ca4733311004c8d44a516d4372</sys_package><sys_policy/><sys_scope display_value="Loaner Vehicle Request and Inventory">49a969ca4733311004c8d44a516d4372</sys_scope><sys_update_name>sp_container_cbb9f0be47b4821004c8d44a516d435e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-26 04:16:36</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-413840527</payload_hash>
+        <record_name>Efficient Home - Container 6</record_name>
+        <reverted_from/>
+        <source>655e28e74700021004c8d44a516d43ea</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-26 04:16:36</sys_created_on>
+        <sys_id>24768a2f4701461004c8d44a516d437c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e78f970430000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-26 04:16:36</sys_updated_on>
+        <type>Container</type>
+        <update_guid>a8768a2f55014610df38c3e44407b87b</update_guid>
+        <update_guid_history>a8768a2f55014610df38c3e44407b87b:-413840527,03664a2f8e014610dea7b5b6013117df:1902824944,6d2de0fb723442102155b7d9900dc016:-75476881,5e9b207b6d344210f5a7d2157a445c8f:1902824944,a49a28f76b3442100a3834828cde0210:-413840527,e96211239a34021049a51e1d5ffa1d23:1564461298,c62773d7ed30021097090b3559f88f1d:-752204173,0bb9f0becab482104efe93b6b0e9a460:1226097652</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Efficient Home - Container 6">f576862f4701461004c8d44a516d4349</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-26 04:16:42</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>83edd0c66fdd4b4491cb7edb809a5910</sys_id>
+        <sys_metadata>cbb9f0be47b4821004c8d44a516d435e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Efficient Home - Container 6</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1298059_loaner_0">49a969ca4733311004c8d44a516d4372</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">49a969ca4733311004c8d44a516d4372</sys_scope>
+        <sys_scope_delete display_value="">1b2ae3d0be134b3db946bc94e89b91a1</sys_scope_delete>
+        <sys_update_name>sp_container_cbb9f0be47b4821004c8d44a516d435e</sys_update_name>
+        <sys_update_version display_value="sp_container_cbb9f0be47b4821004c8d44a516d435e">24768a2f4701461004c8d44a516d437c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-26 04:16:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
