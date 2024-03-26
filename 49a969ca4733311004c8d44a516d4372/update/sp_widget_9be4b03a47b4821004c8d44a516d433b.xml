@@ -3,7 +3,14 @@
         <category>custom</category>
         <client_script/>
         <controller_as>c</controller_as>
-        <css>//Top 
+        <css>body {
+    font-family: "SourceSansPro", Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.42857;
+    color: #88D498;
+    background-color: #2A2C24;
+}
+//Top 
 th {
 	background-color: #000000;
 	border: none;
@@ -71,7 +78,28 @@ thead {
     border-bottom-right-radius: 0.3rem;
     border-bottom-left-radius: 0.3rem;
 }
-  
+ 
+.v5001b062d7101200b0b044580e6103eb .panel-heading {
+    padding-left: .8rem;
+}
+//top widget header
+.panel-primary &gt; .panel-heading {
+    color: #ffffff;
+    background-color: #000000;
+    border-color: #428bca;
+}
+
+.panel-primary &gt; .panel-heading {
+    color: #ffffff;
+    background-color: #000000;
+    border-color: #000000;
+}
+.panel-heading {
+    padding: 1rem 1.5rem;
+    border-bottom: .1rem solid transparent;
+    border-top-right-radius: .3rem;
+    border-top-left-radius: .3rem;
+}
 
 </css>
         <data_table>sp_instance_table</data_table>
@@ -149,14 +177,14 @@ thead {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-11 04:09:19</sys_created_on>
         <sys_id>9be4b03a47b4821004c8d44a516d433b</sys_id>
-        <sys_mod_count>78</sys_mod_count>
+        <sys_mod_count>83</sys_mod_count>
         <sys_name>Available Vehicles</sys_name>
         <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1298059_loaner_0">49a969ca4733311004c8d44a516d4372</sys_package>
         <sys_policy/>
         <sys_scope display_value="Loaner Vehicle Request and Inventory">49a969ca4733311004c8d44a516d4372</sys_scope>
         <sys_update_name>sp_widget_9be4b03a47b4821004c8d44a516d433b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-14 06:57:37</sys_updated_on>
+        <sys_updated_on>2024-03-26 04:00:27</sys_updated_on>
         <template><![CDATA[<div class="custom-widget">
   <div class="alert alert-danger" ng-if="data.invalid_table">
     ${Table not defined} '{{data.table_label}}'

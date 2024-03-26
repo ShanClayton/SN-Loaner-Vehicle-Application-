@@ -2,7 +2,7 @@
     <sp_instance_link action="INSERT_OR_UPDATE">
         <active>true</active>
         <class_name/>
-        <color>danger</color>
+        <color/>
         <css/>
         <glyph>globe</glyph>
         <id/>
@@ -13,7 +13,7 @@
         <roles/>
         <sc_cat_item/>
         <sc_category/>
-        <short_description>check out my portfolio testing test test test test</short_description>
+        <short_description>Check out my past Front-End development work and current ServiceNow projects.</short_description>
         <size>md</size>
         <sp_column display_value="1">4b9b607b4734421004c8d44a516d4301</sp_column>
         <sp_page/>
@@ -22,21 +22,21 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-14 06:02:43</sys_created_on>
         <sys_id>b1ab207b4734421004c8d44a516d43a7</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>ShanClayton.com</sys_name>
         <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1298059_loaner_0">49a969ca4733311004c8d44a516d4372</sys_package>
         <sys_policy/>
         <sys_scope display_value="Loaner Vehicle Request and Inventory">49a969ca4733311004c8d44a516d4372</sys_scope>
         <sys_update_name>sp_instance_link_b1ab207b4734421004c8d44a516d43a7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-14 06:07:40</sys_updated_on>
+        <sys_updated_on>2024-03-26 04:14:31</sys_updated_on>
         <title>ShanClayton.com</title>
         <type>url</type>
         <url>https://shanclayton.com</url>
         <widget_parameters><![CDATA[{
 	"link_template": {
-		"value": "Color Box",
-		"displayValue": "Color Box"
+		"value": "",
+		"displayValue": "-- None --"
 	}
 }]]></widget_parameters>
     </sp_instance_link>
