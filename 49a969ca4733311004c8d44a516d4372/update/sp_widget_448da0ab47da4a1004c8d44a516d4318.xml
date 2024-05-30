@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.serviceBox{
+    color: #fff;
+    background: linear-gradient(#D0D50F,#7FCE11);
+    font-family: 'Maven Pro', sans-serif;
+    text-align: center;
+    padding: 20px;
+    border-radius: 40px;
+}
+.serviceBox .service-icon{
+    font-size: 50px;
+    line-height: 80px;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+.serviceBox .title{
+    color: #7FCE11;
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 0;
+    margin: 0 -20px 15px;
+}
+.serviceBox .description{
+    font-size: 15px;
+    line-height: 22px;
+    margin: 0;
+}
+.serviceBox.green{ background: linear-gradient(#109492,#008A65); }
+.serviceBox.green .title{ color: #008A65; }
+.serviceBox.blue{ background: linear-gradient(#1f96ba, #27436d); }
+.serviceBox.blue .title{ color: #27436d; }
+.serviceBox.purple{ background: linear-gradient(#c4276b, #473a82); }
+.serviceBox.purple .title{ color: #3A2885; }
+@media only screen and (max-width: 990px){
+    .serviceBox{ margin: 0 0 30px; }
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>ovalwidget</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>ovalwidget</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-27 01:06:28</sys_created_on>
+        <sys_id>448da0ab47da4a1004c8d44a516d4318</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>ovalwidget</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1298059_loaner_0">49a969ca4733311004c8d44a516d4372</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">49a969ca4733311004c8d44a516d4372</sys_scope>
+        <sys_update_name>sp_widget_448da0ab47da4a1004c8d44a516d4318</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-27 02:11:55</sys_updated_on>
+        <template><![CDATA[<div class="container">
+    <div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="serviceBox">
+                <div class="service-icon">
+                    <span><i class="fa fa-globe"></i></span>
+                </div>
+                <h3 class="title">Request Something</h3>
+                <p class="description">ServiceNow Request Management delivers employee self-service through a published catalog of services, automated workflows, and service level agreements.</p>
+            </div>
+        </div>
+       
+        </div>
+    </div>
+
+]]></template>
+    </sp_widget>
+</record_update>
