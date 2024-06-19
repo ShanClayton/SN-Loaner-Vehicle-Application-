@@ -31,9 +31,13 @@ When users click this button, Set the Vehicle Status to Returned to Warehouse.</
         <name>Return to Warehouse </name>
         <onclick/>
         <order>100</order>
-        <script><![CDATA[current.vehicle_status = "returned to warehouse"; 
-current.update();
+        <script><![CDATA[var gr = new GlideRecord(current.getTableName());
+if (gr.get(current.sys_id)) {
+    gr.vehicle_status = "returned to warehouse";
+    gr.update(); // Update the record without directly using current.update()
+}
 action.setRedirectURL(current);
+
 ]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
@@ -45,7 +49,7 @@ action.setRedirectURL(current);
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>97117db94754021004c8d44a516d43b8</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Return to Warehouse </sys_name>
         <sys_overrides/>
         <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1298059_loaner_0">49a969ca4733311004c8d44a516d4372</sys_package>
@@ -53,7 +57,7 @@ action.setRedirectURL(current);
         <sys_scope display_value="Loaner Vehicle Request and Inventory">49a969ca4733311004c8d44a516d4372</sys_scope>
         <sys_update_name>sys_ui_action_97117db94754021004c8d44a516d43b8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-05 07:57:35</sys_updated_on>
+        <sys_updated_on>2024-06-15 06:02:11</sys_updated_on>
         <table>x_1298059_loaner_0_vehicle_tracker</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
