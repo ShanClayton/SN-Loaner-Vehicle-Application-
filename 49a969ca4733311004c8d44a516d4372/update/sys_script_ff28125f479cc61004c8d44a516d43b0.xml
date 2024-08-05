@@ -34,7 +34,7 @@
     if (vehTrackerSysID) {
         var vehTracker = new GlideRecord('x_1298059_loaner_0_vehicle_tracker'); // GlideRecord for Vehicle Tracker table
         if (vehTracker.get(vehTrackerSysID)) {
-            // Set the Vehicle Status of the Vehicle Tracker to match the Servicing ticket
+            // Set the Vehicle Status of the Vehicle Tracker to match the vehicle Servicing vehicle status
             vehTracker.setValue('vehicle_status', current.vehicle_status);
 
             // Set the Ticket Status of the Vehicle Tracker to "Closed"
@@ -50,7 +50,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ff28125f479cc61004c8d44a516d43b0</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Set Vehicle Status and Ticket Status</sys_name>
         <sys_overrides/>
         <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1298059_loaner_0">49a969ca4733311004c8d44a516d4372</sys_package>
@@ -58,7 +58,7 @@
         <sys_scope display_value="Loaner Vehicle Request and Inventory">49a969ca4733311004c8d44a516d4372</sys_scope>
         <sys_update_name>sys_script_ff28125f479cc61004c8d44a516d43b0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-28 04:05:00</sys_updated_on>
+        <sys_updated_on>2024-06-30 01:59:54</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

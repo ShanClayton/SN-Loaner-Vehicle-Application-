@@ -26,21 +26,22 @@
     var dateNeeded = g_form.getValue('date_needed');
     var dateToReturn = g_form.getValue('date_to_return');
 
-    //If date return is before date needed trigger error message
+    // If date return is before date needed trigger error message
     if (dateToReturn && dateNeeded && dateToReturn < dateNeeded) {
-        alert('Date to return should not be before the Date needed');
+        g_form.addErrorMessage('Date to return should not be before the Date needed');
         g_form.clearValue('date_to_return');
         return false; // Prevent form submission
     }
     return true; // Allow form submission
-}]]></script>
+}
+]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-13 03:55:13</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>198ea5c24758421004c8d44a516d4355</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Date Validation</sys_name>
         <sys_overrides/>
         <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1298059_loaner_0">49a969ca4733311004c8d44a516d4372</sys_package>
@@ -48,7 +49,7 @@
         <sys_scope display_value="Loaner Vehicle Request and Inventory">49a969ca4733311004c8d44a516d4372</sys_scope>
         <sys_update_name>catalog_script_client_198ea5c24758421004c8d44a516d4355</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-26 18:31:26</sys_updated_on>
+        <sys_updated_on>2024-08-05 04:14:33</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
