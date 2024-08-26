@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>div{
+  height: 150px;
+  width: 252px;
+  background: #fff;
+  border-radius: 20px;
+ }
+.box{
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+  background-color: #f3ca20;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>pullincidents</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>pullincidents</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+     data.incidents = [];
+    var grOpen = new GlideRecord("incident");
+    grOpen.addActiveQuery();
+    grOpen.addEncodedQuery("state=1");
+    grOpen.setLimit(4);
+    grOpen.orderByDesc("sys_updated_on");
+    grOpen.query()
+    while (grOpen.next()) {
+        var incident = {};
+        incident.number = grOpen.getDisplayValue('number');
+        incident.short_description = grOpen.getDisplayValue('short_description');
+        incident.sys_id = grOpen.getUniqueValue();
+        incident.sys_updated_on = grOpen.getValue('sys_updated_on');
+        data.incidents.push(incident);
+    }
+    data.incidentOverDue = [];
+    var grOverDue = new GlideRecord("incident");
+    grOverDue.addActiveQuery();
+    grOverDue.addEncodedQuery("state=2");
+    grOverDue.setLimit(2);
+    grOverDue.orderByDesc("sys_updated_on");
+    grOverDue.query()
+    while (grOverDue.next()) {
+        var incidentDueTask = {};
+        incidentDueTask.number = grOverDue.getDisplayValue('number');
+        incidentDueTask.short_description = grOverDue.getDisplayValue('short_description');
+        incidentDueTask.sys_id = grOverDue.getUniqueValue();
+        incidentDueTask.sys_updated_on = grOverDue.getValue('sys_updated_on');
+        data.incidentOverDue.push(incidentDueTask);
+    }
+     data.incidentUpcoming = [];
+    var grUpcoming = new GlideRecord("incident");
+    grUpcoming.addActiveQuery();
+    grUpcoming.addEncodedQuery("state=3");
+    grUpcoming.setLimit(2);
+    grUpcoming.orderByDesc("sys_updated_on");
+    grUpcoming.query()
+    while (grUpcoming.next()) {
+        var incidentUpcomingTask = {};
+        incidentUpcomingTask.number = grUpcoming.getDisplayValue('number');
+        incidentUpcomingTask.short_description = grUpcoming.getDisplayValue('short_description');
+        incidentUpcomingTask.sys_id = grUpcoming.getUniqueValue();
+        incidentUpcomingTask.sys_updated_on = grUpcoming.getValue('sys_updated_on');
+        data.incidentUpcoming.push(incidentUpcomingTask);
+    }
+ })();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-26 02:21:47</sys_created_on>
+        <sys_id>5e67e9f083941a50e267ccb6feaad39d</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>pullincidents</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1298059_loaner_0">49a969ca4733311004c8d44a516d4372</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">49a969ca4733311004c8d44a516d4372</sys_scope>
+        <sys_update_name>sp_widget_5e67e9f083941a50e267ccb6feaad39d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-26 02:49:31</sys_updated_on>
+        <template><![CDATA[<br>
+     <div class="box" style="height: 190px;width: 100%;background-color: black;"> 
+       <br><br><br>
+<h2 class="ng-binding" style="
+    text-align: center; color:white;
+">Request Something</h2>
+      </div>
+ <br>
+   <div class="box" style="height: 190px;width: 100%;background-color: #f3ca20;"> 
+            <br><br><br>
+<h2 class="ng-binding" style="
+    text-align: center; color:white;
+">Knowledge Base</h2>
+      </div>
+ <br>
+
+<br>
+     <div class="box" style="height: 190px;width: 100%;background-color: black;"> 
+       <br><br><br>
+<h2 class="ng-binding" style="
+    text-align: center; color:white;
+">Request Something</h2>
+      </div>
+ <br>]]></template>
+    </sp_widget>
+</record_update>
