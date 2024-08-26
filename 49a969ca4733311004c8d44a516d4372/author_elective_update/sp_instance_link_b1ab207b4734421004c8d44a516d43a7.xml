@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color/>
+        <css/>
+        <glyph>globe</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description>Check out my past Front-End development work and current ServiceNow projects.</short_description>
+        <size>md</size>
+        <sp_column display_value="1">4b9b607b4734421004c8d44a516d4301</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-14 06:02:43</sys_created_on>
+        <sys_id>b1ab207b4734421004c8d44a516d43a7</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>ShanClayton.com</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1298059_loaner_0">49a969ca4733311004c8d44a516d4372</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">49a969ca4733311004c8d44a516d4372</sys_scope>
+        <sys_update_name>sp_instance_link_b1ab207b4734421004c8d44a516d43a7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-26 04:14:31</sys_updated_on>
+        <title>ShanClayton.com</title>
+        <type>url</type>
+        <url>https://shanclayton.com</url>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": "-- None --"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=b1ab207b4734421004c8d44a516d43a7"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory">49a969ca4733311004c8d44a516d4372</application>
+        <file_path/>
+        <instance_id>a503c7ccdb1a31d402022a591396199a</instance_id>
+        <instance_name>dev198269</instance_name>
+        <name>sp_instance_link_b1ab207b4734421004c8d44a516d43a7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color/&gt;&lt;css/&gt;&lt;glyph&gt;globe&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description&gt;Check out my past Front-End development work and current ServiceNow projects.&lt;/short_description&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;4b9b607b4734421004c8d44a516d4301&lt;/sp_column&gt;&lt;sp_page/&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-14 06:02:43&lt;/sys_created_on&gt;&lt;sys_id&gt;b1ab207b4734421004c8d44a516d43a7&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;ShanClayton.com&lt;/sys_name&gt;&lt;sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1298059_loaner_0"&gt;49a969ca4733311004c8d44a516d4372&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Loaner Vehicle Request and Inventory"&gt;49a969ca4733311004c8d44a516d4372&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_b1ab207b4734421004c8d44a516d43a7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-03-26 04:14:31&lt;/sys_updated_on&gt;&lt;title&gt;ShanClayton.com&lt;/title&gt;&lt;type&gt;url&lt;/type&gt;&lt;url&gt;https://shanclayton.com&lt;/url&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": "-- None --"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=b1ab207b4734421004c8d44a516d43a7"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1575587075</payload_hash>
+        <record_name>ShanClayton.com</record_name>
+        <reverted_from/>
+        <source>655e28e74700021004c8d44a516d43ea</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-26 04:14:31</sys_created_on>
+        <sys_id>4af54aeb4701461004c8d44a516d4313</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e78f786120000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-26 04:14:31</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>cef54aeb1a014610a99d95679c1cba12</update_guid>
+        <update_guid_history>cef54aeb1a014610a99d95679c1cba12:-1575587075,5acce87b6e344210798c5d93ad26140b:-524146953,7fdba47bfd344210cdb2ba373287e534:713410521,72cb283b6d344210d91cffd33d60712c:-80659799,31ab607b6e34421075bf98943569e0d3:1614774581</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ShanClayton.com">ad8ee53c83941a50e267ccb6feaad315</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-26 02:52:52</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>88a8c182a1c34ecb8d350355d071fd31</sys_id>
+        <sys_metadata>b1ab207b4734421004c8d44a516d43a7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ShanClayton.com</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1298059_loaner_0">49a969ca4733311004c8d44a516d4372</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">49a969ca4733311004c8d44a516d4372</sys_scope>
+        <sys_scope_delete display_value="">1b2ae3d0be134b3db946bc94e89b91a1</sys_scope_delete>
+        <sys_update_name>sp_instance_link_b1ab207b4734421004c8d44a516d43a7</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_b1ab207b4734421004c8d44a516d43a7">4af54aeb4701461004c8d44a516d4313</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-26 02:52:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
